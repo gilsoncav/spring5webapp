@@ -23,7 +23,7 @@ public class InitialRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Publisher publisher1 = new Publisher("Rua das tapiocas", "Recife", "PE", "52014-130");
+        Publisher publisher1 = new Publisher("Livraria Flocks", "Rua das tapiocas", "Recife", "PE", "52014-130");
 
         Author author1 = new Author("Gilson", "Cavalcanti");
         Book book1 = new Book("O livro magico da mudanca", "123455");
